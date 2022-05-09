@@ -13,12 +13,7 @@
 
 Game* Game::s_pInstance = 0;
 
-// 한글 입력 테스트: Replit에서 입력
-// 이 함수의 기능은 어쩌고 저쩌고
-// 한글 입력 테스트2: VS에서 입력
-// 한글한글한글한글한글한글한글한글한글한글
-// UTF-8 BOM으로 변경
-// 다시 VS로 가져가면?
+// 수정 테스트!
 bool Game::setup()
 {
 	bool result;
@@ -28,7 +23,7 @@ bool Game::setup()
 	_walker = new Walker();
 	attractor = new Attractor(WIDTH / 2, HEIGHT / 2, 100);
 	printf("\n\n\n\n\n\n\n\n");
-	printf("한글 테스트\n");
+	printf("한글~~~~~~~~~~~~\n");
 	printf("\n\n\n\n\n\n\n\n");
 	return result;
 }
